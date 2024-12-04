@@ -13,6 +13,8 @@ class LogicaKilos {
 
   int get totalKilos => _totalKilos;
 
+  //control de acceso de datos para que sol
+
   String agregarKilos(int kilos) {
     if (kilos == 0) {
       return "Programa terminado. Total pescado: $_totalKilos kg.";
